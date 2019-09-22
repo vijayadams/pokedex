@@ -1,0 +1,215 @@
+
+    {
+     "TC_ID1":
+        {
+            "input":
+            {
+               "adavanceSearch":
+                {
+                    "ability":"Victory Star"
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":1,
+                    "ids":["494"],
+                    "names":["Victini"]
+                }
+               
+            }
+        },
+        "TC_ID2":
+        {
+            "input":
+            {
+               "adavanceSearch":
+                {
+                    "ability":"Water Veil",
+                    "height":["small","height"]
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":2,
+                    "ids":["118","321"],
+                    "names":["Goldeen","Wailord"]
+                }
+               
+            }
+        },
+        "TC_ID3":
+        {
+            "input":
+            {
+               "adavanceSearch":
+                {
+                    "ability":"Water Veil",
+                    "weight":["small","medium","height"]
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":4,
+                    "ids":["118","119","320","321"],
+                    "names":["Goldeen","Seaking","Wailmer","Wailord"]
+                }
+               
+            }
+        },
+        "TC_ID4":
+        {
+            "input":
+            {
+               "adavanceSearch":
+                {
+                    "ability":"Water Veil",
+                    "height":["medium"],
+                    "weight":["small","medium"]
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":2,
+                    "ids":["119","320"],
+                    "names":["Seaking","Wailmer"]
+                }
+               
+            }
+        },
+        "TC_ID5":
+        {
+            "input":
+            {
+               "sort":
+                {
+                    "value":"Z-A"
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":12,
+                    "ids":["718","634","041","570","571","263","807","644","523","145","335","717"],
+                    "names":["Zygarde","Zweilous","Zubat","Zorua","Zoroark","Zigzagoon","Zeraora","Zekrom","Zebstrika","Zapdos","Zangoose","Yveltal"]
+                }
+               
+            }
+        },
+        "TC_ID6":
+        {
+            "input":
+            {
+               "sort":
+                {
+                    "value":"A-Z"
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":12,
+                    "ids":["460","063","359","617","681","142","306","190","065","594","334","698"],
+                    "names":["Abomasnow","Abra","Absol","Accelgor","Aegislash","Aerodactyl","Aggron","Aipom","Alakazam","Alomomola","Altaria","Amaura"]
+                }
+               
+            }
+        },
+        "TC_ID7":
+        {
+            "input":
+            {
+               "sort":
+                {
+                    "value":"Lowest Number (First)"
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":12,
+                    "ids":["001","002","003","004","005","006","007","008","009","010","011","012"],
+                    "names":["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","Charizard","Squirtle","Wartortle","Blastoise","Caterpie","Metapod","Butterfree"]
+                }
+               
+            }
+        },
+        "TC_ID8":
+        {
+            "input":
+            {
+               "sort":
+                {
+                    "value":"Highest Number (First)"
+                }
+            },
+            "output":
+            {
+                "searchResults":
+                {
+                    "count":12,
+                    "ids":["809","808","807","806","805","804","803","802","801","800","799","798"],
+                    "names":["Melmetal","Meltan","Zeraora","Blacephalon","Stakataka","Naganadel","Poipole","Marshadow","Magearna","Necrozma","Guzzlord","Kartana"]
+                }
+               
+            }
+        },
+        "TC_ID9":
+        {
+            "input":
+            {
+               "name":"Squirtle"
+            
+            },
+            "output":
+            {
+                "name":"Squirtle",
+                "id":"007",
+                "details":
+                {
+                    "height":"1' 08\"",
+                    "weight":"19.8 lbs",
+                    "category":"Tiny Turtle",
+                    "abilities":"Torrent"
+
+                },
+                "type":["Water"],
+                "weaknesses":["Electric","Grass"]
+            }
+        },
+        "TC_ID10":
+        {
+            "input":
+            {
+               "name":"Ivysaur",
+               "evolution":
+               {
+                "name":"Venusaur"
+               }
+            },
+            "output":
+            {
+                "name":"Venusaur",
+                "id":"003",
+                "details":
+                {
+                    "height":"6' 07\"",
+                    "weight":"220.5 lbs",
+                    "category":"Seed",
+                    "abilities":"Overgrow"
+                },
+                "type":["Grass","Poison"],
+                "weaknesses":["Fire","Flying","Ice","Psychic"]
+            }
+        }
+    }
