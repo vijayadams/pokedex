@@ -1,0 +1,4 @@
+test/api_tests/BaseTest.class
+test/api_tests/ContestTests.class
+Utils/TestUtils.class
+test/api_tests/BerryTests.class
