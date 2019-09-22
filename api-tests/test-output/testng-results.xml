@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4366" started-at="2019-09-22T18:15:56Z" finished-at="2019-09-22T18:16:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4366" started-at="2019-09-22T18:15:56Z" finished-at="2019-09-22T18:16:01Z">
+      <class name="test.api_tests.ContestTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="setup" is-config="true" duration-ms="509" started-at="2019-09-22T23:45:56Z" finished-at="2019-09-22T23:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_the_count_of_names()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="validate_the_count_of_names" duration-ms="1940" started-at="2019-09-22T23:45:57Z" finished-at="2019-09-22T23:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_count_of_names -->
+        <test-method status="PASS" signature="validate_the_status_code_for_200()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="validate_the_status_code_for_200" duration-ms="846" started-at="2019-09-22T23:45:59Z" finished-at="2019-09-22T23:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_status_code_for_200 -->
+        <test-method status="PASS" signature="validate_the_value_of_key_berry_flavors_url()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="validate_the_value_of_key_berry_flavors_url" duration-ms="498" started-at="2019-09-22T23:46:00Z" finished-at="2019-09-22T23:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_berry_flavors_url -->
+        <test-method status="PASS" signature="validate_the_value_of_key_id()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="validate_the_value_of_key_id" duration-ms="251" started-at="2019-09-22T23:46:00Z" finished-at="2019-09-22T23:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_id -->
+        <test-method status="PASS" signature="validate_the_value_of_key_name()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="validate_the_value_of_key_name" duration-ms="292" started-at="2019-09-22T23:46:00Z" finished-at="2019-09-22T23:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_name -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.api_tests.ContestTests@47c62251]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-22T23:46:01Z" finished-at="2019-09-22T23:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.api_tests.ContestTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

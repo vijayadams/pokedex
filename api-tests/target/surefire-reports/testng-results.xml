@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7652" started-at="2019-09-22T18:58:09Z" finished-at="2019-09-22T18:58:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7652" started-at="2019-09-22T18:58:09Z" finished-at="2019-09-22T18:58:16Z">
+      <class name="test.api_tests.ContestTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-23T00:28:15Z" finished-at="2019-09-23T00:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_the_count_of_names()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="validate_the_count_of_names" duration-ms="316" started-at="2019-09-23T00:28:15Z" finished-at="2019-09-23T00:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_count_of_names -->
+        <test-method status="PASS" signature="validate_the_status_code_for_200()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="validate_the_status_code_for_200" duration-ms="241" started-at="2019-09-23T00:28:15Z" finished-at="2019-09-23T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_status_code_for_200 -->
+        <test-method status="PASS" signature="validate_the_value_of_key_berry_flavors_url()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="validate_the_value_of_key_berry_flavors_url" duration-ms="277" started-at="2019-09-23T00:28:16Z" finished-at="2019-09-23T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_berry_flavors_url -->
+        <test-method status="PASS" signature="validate_the_value_of_key_id()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="validate_the_value_of_key_id" duration-ms="269" started-at="2019-09-23T00:28:16Z" finished-at="2019-09-23T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_id -->
+        <test-method status="PASS" signature="validate_the_value_of_key_name()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="validate_the_value_of_key_name" duration-ms="249" started-at="2019-09-23T00:28:16Z" finished-at="2019-09-23T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_name -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.api_tests.ContestTests@22f71333]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-09-23T00:28:16Z" finished-at="2019-09-23T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.api_tests.ContestTests -->
+      <class name="test.api_tests.BerryTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="setup" is-config="true" duration-ms="657" started-at="2019-09-23T00:28:09Z" finished-at="2019-09-23T00:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_the_count_of_flavors()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="validate_the_count_of_flavors" duration-ms="2515" started-at="2019-09-23T00:28:09Z" finished-at="2019-09-23T00:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_count_of_flavors -->
+        <test-method status="PASS" signature="validate_the_status_code_for_200()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="validate_the_status_code_for_200" duration-ms="746" started-at="2019-09-23T00:28:12Z" finished-at="2019-09-23T00:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_status_code_for_200 -->
+        <test-method status="PASS" signature="validate_the_value_of_key_firmness_url()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="validate_the_value_of_key_firmness_url" duration-ms="839" started-at="2019-09-23T00:28:13Z" finished-at="2019-09-23T00:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_firmness_url -->
+        <test-method status="PASS" signature="validate_the_value_of_key_id()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="validate_the_value_of_key_id" duration-ms="692" started-at="2019-09-23T00:28:13Z" finished-at="2019-09-23T00:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_id -->
+        <test-method status="PASS" signature="validate_the_value_of_key_name()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="validate_the_value_of_key_name" duration-ms="820" started-at="2019-09-23T00:28:14Z" finished-at="2019-09-23T00:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_value_of_key_name -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.api_tests.BerryTests@6cd8737]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-23T00:28:15Z" finished-at="2019-09-23T00:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.api_tests.BerryTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
